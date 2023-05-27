@@ -1,0 +1,18 @@
+.user-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-card {
+  width: 25%;
+  background-color: #b5edb9;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.user-card h3 {
+  margin: 8px 0;
+}
