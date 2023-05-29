@@ -7,7 +7,10 @@ import './App.css'
 const App = () => {
   return (
     <div>
-      {/* <UsersClass /> */}
+    <h1>Class Component</h1>
+      <UsersClass />
+      <hr/>
+      <h1>Functional Component</h1>
       <UsersFunction />
     </div>
   )
